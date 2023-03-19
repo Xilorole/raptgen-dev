@@ -1,9 +1,0 @@
-repos:
-- repo: https://github.com/pytest-dev/pytest
-  rev: "main"
-  hooks:
-  - id: pytest
-    name: pytest
-    entry: pytest
-    language: system
-    stages: [commit]

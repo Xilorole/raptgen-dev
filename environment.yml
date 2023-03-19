@@ -19,3 +19,4 @@ dependencies:
   - scikit-learn
   - rich
   - pre-commit
+  - biopython
