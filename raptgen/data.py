@@ -95,3 +95,7 @@ def one_hot_encode(seq: str, padding: Union[int, Tuple[int, int]] = 0) -> np.arr
 
     # return one hot array
     return arr[one_hot_index("N" * left_pad + seq + "N" * right_pad)]
+
+
+def read_fasta(path) -> List[str]:
+    pass
