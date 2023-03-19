@@ -18,3 +18,4 @@ dependencies:
   - matplotlib
   - scikit-learn
   - rich
+  - pre-commit
