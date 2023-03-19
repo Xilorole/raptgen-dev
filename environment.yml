@@ -1,0 +1,20 @@
+name: raptgen
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - pandas
+  - pytest
+  - click
+  - numpy
+  - svgwrite
+  - CairoSVG
+  - GPy
+  - GPyOpt
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - rich
